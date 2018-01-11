@@ -93,33 +93,6 @@ public:
 
 		}
 		return temp1;
-		
-		/*ListNode* temp = len1 > len2 ? l1 : l2;
-		ListNode* temp2 = temp;
-		int iFlag = 0;
-		for (; l1 != NULL && l2 != NULL; )
-		{
-			int i1 = l1->val;
-			int i2 = l2->val;
-			temp->val = (i1 + i2 + iFlag) % 10;
-			if (10 <= i1 + i2 + iFlag)
-			{
-				iFlag = 1;
-			}
-			else
-			{
-				iFlag = 0;
-			}
-			
-			l1 = l1->next;
-			l2 = l2->next;
-			temp = temp->next;
-			if (temp->next == NULL)
-			{
-				temp->next = new ListNode(iFlag);
-			}
-		}
-		return temp2;*/
 	}
 
 	//第二种参考网上的

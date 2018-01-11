@@ -49,6 +49,7 @@ public:
 			{
 				vecResult.push_back(umap[target - nums[i]]);
 				vecResult.push_back(i);
+				return vecResult;
 			}
 			umap[nums[i]] = i;
 		}
